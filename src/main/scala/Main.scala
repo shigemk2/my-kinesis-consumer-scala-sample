@@ -9,7 +9,7 @@ import com.amazonaws.services.kinesis.clientlibrary.lib.worker.{InitialPositionI
 import com.amazonaws.services.kinesis.clientlibrary.types.ShutdownReason
 import com.amazonaws.services.kinesis.model.Record
 
-object Main {
+object TailMain {
   val accessKeyId = System.getProperty("accessKeyId")
   val secretAccessKey = System.getProperty("secretAccessKey")
 
